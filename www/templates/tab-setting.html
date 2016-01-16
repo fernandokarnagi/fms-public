@@ -1,0 +1,37 @@
+<ion-view view-title="Setting" cache-view="true">
+
+<ion-nav-buttons side="right">
+      <button class="button button-icon icon ion-checkmark-round" ng-click="saveSetting()">
+      	Save 
+      </button>
+</ion-nav-buttons>
+   
+   
+    
+     
+<ion-content>
+<div class="list">
+	
+	
+  	<ion-toggle  ng-model="setting.anonymous">
+        Stay Anonymous
+    </ion-toggle>
+
+	<label class="item item-input"> 
+		<span class="input-label">NRIC</span>
+		<input type="text" ng-model="setting.nric">
+	</label> 
+	
+	<ion-toggle  ng-model="setting.notification">
+        Enable Email Notification
+    </ion-toggle>
+	
+	<label class="item item-input"> 
+		<span class="input-label">Email Address</span>
+		<input type="text" ng-model="setting.emailAddress">
+	</label> 
+	
+</div>
+
+</ion-content> 
+</ion-view>

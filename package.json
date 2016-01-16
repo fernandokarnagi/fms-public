@@ -1,7 +1,7 @@
 {
   "name": "fms-public",
   "version": "1.1.1",
-  "description": "fms-public: An Ionic project",
+  "description": "FMS Public Mobile App",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
